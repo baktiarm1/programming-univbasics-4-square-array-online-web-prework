@@ -1,8 +1,10 @@
 def square_array(array)
   count=0 
-  
-  while square_array < square_array.length do 
-    square_array[count]8**2
+  new_array =[]
+  while count < array.length do 
+  new_array.push((array[count])**2)
   end 
-  
+  return new_array
 end
+
+square_array([1,2,3])
